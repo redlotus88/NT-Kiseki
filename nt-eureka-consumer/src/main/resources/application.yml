@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    acitve: dev
+  application:
+    name: nt-eureka-consumer
+
+server:
+  port: 2101
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
