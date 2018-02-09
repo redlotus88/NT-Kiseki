@@ -29,7 +29,7 @@
 		<module>nt-eureka-consumer</module>
 		<module>nt-eureka-consumer-ribbon</module>
 		<module>nt-eureka-consumer-feign</module>
-		<!--<module>nt-config-server-git</module>-->
+		<module>nt-config-server-git</module>
 	</modules>
 
 	<build>
