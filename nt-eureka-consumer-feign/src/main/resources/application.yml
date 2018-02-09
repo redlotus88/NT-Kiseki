@@ -1,6 +1,8 @@
 spring:
+  profiles:
+    active: dev
   application:
-    name: piw-eureka-consumer-feign
+    name: nt-eureka-consumer-feign
 
 server:
   port: 2103
