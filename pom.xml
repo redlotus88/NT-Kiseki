@@ -30,6 +30,7 @@
 		<module>nt-eureka-consumer-ribbon</module>
 		<module>nt-eureka-consumer-feign</module>
 		<module>nt-config-server-git</module>
+		<module>nt-spring-boot-jersey-example</module>
 	</modules>
 
 	<build>
@@ -42,7 +43,7 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 	            <groupId>org.apache.maven.plugins</groupId>
 	            <artifactId>maven-jar-plugin</artifactId>
@@ -81,8 +82,6 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-
-
 		</dependencies>
 	</dependencyManagement>
 

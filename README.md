@@ -17,4 +17,4 @@ Git: 代码版本控制工具
 2101 nt-eureka-consumer          Spring cloud 消费者示例  
 2102 nt-eureka-consumer-ribbon   Spring cloud 消费者负载均衡示例  
 2103 nt-eureka-consumer-feign    Spring cloud 消费者负载均衡示例  
-
+2104 nt-spring-boot-jersey-example Spring boot Jersey Example
