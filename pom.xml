@@ -22,16 +22,6 @@
 	<name>NT-Kiseki</name>
 	<description>车商云系统基础架构Kiseki原型</description>
 
-	<!-- 项目模块定义 -->
-	<modules>
-        <module>nt-eureka-server</module>
-		<module>nt-eureka-client-example</module>
-		<module>nt-eureka-consumer</module>
-		<module>nt-eureka-consumer-ribbon</module>
-		<module>nt-eureka-consumer-feign</module>
-		<module>nt-config-server-git</module>
-	</modules>
-
 	<build>
 		<plugins>
 			<plugin>
