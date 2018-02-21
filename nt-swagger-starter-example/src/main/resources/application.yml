@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: nt-swagger-starter-example
+
+server:
+  port: 2105
