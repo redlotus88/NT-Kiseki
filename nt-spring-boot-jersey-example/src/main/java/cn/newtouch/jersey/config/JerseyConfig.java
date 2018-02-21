@@ -1,6 +1,6 @@
-package cn.rdlts.jersey.config;
+package cn.newtouch.jersey.config;
 
-import cn.rdlts.jersey.service.Demo;
+import cn.newtouch.jersey.service.Demo;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 

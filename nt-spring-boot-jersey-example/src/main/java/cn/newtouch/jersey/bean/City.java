@@ -1,4 +1,4 @@
-package cn.rdlts.jersey.bean;
+package cn.newtouch.jersey.bean;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

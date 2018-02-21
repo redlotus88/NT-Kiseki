@@ -1,6 +1,8 @@
-package cn.rdlts.jersey.service;
+package cn.newtouch.jersey.service;
 
-import cn.rdlts.jersey.bean.City;
+import cn.newtouch.jersey.bean.City;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.GET;
@@ -15,6 +17,8 @@ import javax.ws.rs.core.MediaType;
 @Path("/demo")
 public class Demo {
 
+    @ApiOperation(value = "创建用户", notes = "根据User对象创建用户")
+    @ApiImplicitParam(name = "user", value = "用户详细实体user", required = true, dataType = "User")
     @Path("/city")
     @GET
     @Produces(MediaType.APPLICATION_JSON)

@@ -1,4 +1,4 @@
-package cn.rdlts.jersey;
+package cn.newtouch.jersey;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
