@@ -1,0 +1,32 @@
+spring:
+  profiles:
+    active: seed
+  application:
+    name: nt-zuul-server
+
+server:
+  port: 2180
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+zuul:
+  routes:
+    nt-swagger-starter-example:
+      path: /nt-swagger-starter-example/**
+      serviceId: nt-swagger-starter-example
+
+    swagger-api-doc-swagger-example:
+      path: /swagger/doc/swagger-example/**
+      serviceId: nt-swagger-starter-example
+
+    swagger-api-doc-eureka-client-example:
+      path: /swagger/doc/eureka-client-example/**
+      serviceId: nt-eureka-client-example
+
+    nt-zuul-swagger-example:
+      path: /swagger/**
+      serviceId: nt-zuul-swagger-example
+
