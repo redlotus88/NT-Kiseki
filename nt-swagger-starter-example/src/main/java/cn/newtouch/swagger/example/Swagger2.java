@@ -33,8 +33,8 @@ public class Swagger2 {
         return new ApiInfoBuilder()
                 .title("NT-Kiseki框架中使用Swagger2构建RESTful APIs")
                 .description("NT Kiseki 框架下结合Swagger2 构建RESTful APIs")
-                .termsOfServiceUrl("http://kiseki1029.com:21080")
-                .contact(new Contact("Dragon", "http://kiseki1029.com:21080", "wangjialong02@163.com"))
+                .termsOfServiceUrl("http://kiseki1029.com")
+                .contact(new Contact("Dragon", "http://kiseki1029.com", "wangjialong02@163.com"))
                 .version("1.0")
                 .build();
     }

@@ -2,11 +2,12 @@ package cn.newtouch.swagger.example;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * Created by dragon on 2018/2/21.
  */
+@EnableSwagger2
 @SpringBootApplication
 public class Application {
 
