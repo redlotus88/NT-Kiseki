@@ -6,3 +6,9 @@ spring:
 
 server:
   port: 2105
+#  context-path: /nt-swagger-starter-example
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
