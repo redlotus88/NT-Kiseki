@@ -8,6 +8,7 @@ server:
   port: 8761
 
 eureka:
+  # 单机部署
   instance:
     hostname: localhost
 
@@ -15,4 +16,3 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-

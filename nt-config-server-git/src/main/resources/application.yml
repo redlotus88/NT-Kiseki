@@ -7,7 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/redlotus88/NT-Kiseki/tree/develop/nt-config-repo/
+          uri: https://github.com/redlotus88/NT-Kiseki.git
+          search-paths: /nt-config-repo/nt-config-client.yml
+          label: seed
 
 server:
   port: 1201

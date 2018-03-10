@@ -14,13 +14,13 @@ import javax.ws.rs.core.MediaType;
 /**
  * Created by dragon on 2018/2/13.
  */
-//@Api(description = "城市接口相关")
+@Api(description = "城市接口相关")
 @Component
 @Path("/v1/demo")
 public class Demo {
 
-//    @ApiOperation(value = "创建用户", notes = "根据User对象创建用户")
-//    @ApiImplicitParam(name = "user", value = "用户详细实体user", required = true, dataType = "User")
+    @ApiOperation(value = "创建用户", notes = "根据User对象创建用户")
+    @ApiImplicitParam(name = "user", value = "用户详细实体user", required = true, dataType = "User")
     @Path("/city")
     @GET
     @Produces(MediaType.APPLICATION_JSON)

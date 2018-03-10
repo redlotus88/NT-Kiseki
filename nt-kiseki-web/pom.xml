@@ -10,6 +10,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>nt-kiseki-web</artifactId>
+    <packaging>war</packaging>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
+            </plugin>
+        </plugins>
+        <!-- pojectName就是打包后的名称：nt-kiseki-web.war -->
+        <finalName>nt-kiseki-web</finalName>
+    </build>
 
     <dependencies>
         <dependency>
