@@ -2,4 +2,4 @@ info:
   profile: dev
   from: nt-config-repo
 
-test: bbb
+test: in-config-client
