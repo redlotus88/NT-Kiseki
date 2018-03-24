@@ -1,0 +1,5 @@
+info:
+  profile: dev
+  from: nt-config-repo
+
+test: in-config-client
