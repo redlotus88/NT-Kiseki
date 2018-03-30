@@ -18,7 +18,7 @@ public class DocumentationConfig implements SwaggerResourcesProvider {
     @Override
     public List<SwaggerResource> get() {
         List resources = new ArrayList<>();
-        resources.add(swaggerResource("本项目文档大卵泡", "/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("本项目文档", "/v2/api-docs", "2.0"));
         resources.add(swaggerResource("Swagger Example API", "/doc/swagger-example/v2/api-docs", "2.0"));
         resources.add(swaggerResource("Eureka Client Example API", "/doc/eureka-client-example/v2/api-docs", "2.0"));
 //        resources.add(swaggerResource("支付系统", "/pay/v2/api-docs", "2.0"));
