@@ -1,4 +1,4 @@
-# NT-Kiseki  
+# NT-Kiseki (移除，使用spring boot 2.0替代）
 新致 Kiseki基础框架实例。  
   
 Project Kiseki: 车商云系统 基础架构原型Kiseki  
